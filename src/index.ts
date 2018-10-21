@@ -7,7 +7,7 @@ import ResponseService from './services/ResponseService'
  * @author   Carlos Alvarez <beardedframework@gmail.com>
  */
 
- module.exports = {
+export {
   MainController,
   ResponseService
 }
