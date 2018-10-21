@@ -1,7 +1,7 @@
 {
-  "name": "@beardedframework/logger",
-  "version": "0.0.13",
-  "description": "a logger for bearded",
+  "name": "@beardedframework/core",
+  "version": "0.0.1",
+  "description": "a core features of beardeds",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -19,6 +19,7 @@
   "author": "Carlos Alvarez <beardedframework@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@beardedframework/lumberjack": "^0.1.13",
     "@types/node": "7.0.22",
     "nodemon": "1.11.0"
   },

@@ -1,3 +1,5 @@
+import MainController from './controllers/MainController'
+import ResponseService from './services/ResponseService'
 /**
  * Bearded Logger
  *
@@ -5,5 +7,6 @@
  * @author   Carlos Alvarez <beardedframework@gmail.com>
  */
 
-console.log("bearded's base modules")
+exports.MainController =  MainController;
 
+exports.ResponseService = ResponseService;
