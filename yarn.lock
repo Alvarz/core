@@ -2,8 +2,10 @@
 # yarn lockfile v1
 
 
-"@beardedframework/axe@file:/var/www/html/bearded-axe":
-  version "0.0.13"
+"@beardedframework/axe@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@beardedframework/axe/-/axe-0.0.6.tgz#2267332550f1ea6cc369e8076eeed9642d990831"
+  integrity sha512-EpMDVO2k3Imb3ncZQCqMAvNnrPma6p1Jf68xaLUZQkbi+55OkJiq1VuNs86/XSwoO7M0JQ70KuTlgo5GyYmg4g==
   dependencies:
     "@types/node" "7.0.22"
     nodemon "1.11.0"

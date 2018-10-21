@@ -4,14 +4,16 @@ import * as _ from 'lodash'
 
 export default class MainController{
   
-  protected response = ResponseService;
+  /*
+   * @var { ResponseService } response service 
+   */
+  protected response : ResponseService = ResponseService;
 
   /*
    * crud method to fetch data
    *
    * @param { model } model
-   * @param { number } page
-   * @param { boolean } isComplex
+   * @param { express.req } req
    *
    * @rerurn { promise }
    * -*/
@@ -43,8 +45,7 @@ export default class MainController{
    * crud method to fetch data
    *
    * @param { model } model
-   * @param { number } page
-   * @param { boolean } isComplex
+   * @param { express.req } req
    *
    * @rerurn { promise }
    * -*/
@@ -119,8 +120,8 @@ export default class MainController{
    *
    * generate the element to be saved by given model
    *
-   * @param { object } body
    * @param { model } model
+   * @param { object } body
    *
    * @return object
    *
@@ -143,8 +144,8 @@ export default class MainController{
    *
    * sync model data and values to be saved
    *
-   * @param { object } body
    * @param { model } model
+   * @param { object } body
    *
    * @return object
    *
@@ -156,5 +157,4 @@ export default class MainController{
     }
     return model;
   }
-
 }
