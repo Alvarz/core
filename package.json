@@ -38,9 +38,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BeardedFramework/logger"
+    "url": "git+https://github.com/BeardedFramework/core"
   },
   "bugs": {
-    "url": "https://github.com/BeardedFramework/logger/issues"
+    "url": "https://github.com/BeardedFramework/core/issues"
   }
 }
