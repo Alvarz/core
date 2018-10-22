@@ -1,5 +1,5 @@
 import User from '../models/User'
-import { MainController }  from '@beardedframework/core'
+import { MainController, ResponseService }  from '@beardedframework/core'
 import { to } from '@beardedframework/lumberjack';
 
 export default class {{name}} extends MainController{
@@ -14,7 +14,7 @@ export default class {{name}} extends MainController{
    * */
   public store =  async(req, res) => : Promise<any> {
     
-   return this.response.success('controller store method', {}, res)
+   return ResponseService.success('controller store method', {}, res)
   }
 
   /*
@@ -27,7 +27,7 @@ export default class {{name}} extends MainController{
    * */
   public update = async  (req, res) => : Promise<any> {
 
-   return this.response.success('controller update method', {}, res)
+   return ResponseService.success('controller update method', {}, res)
   }
 
   /*
@@ -40,7 +40,7 @@ export default class {{name}} extends MainController{
    * */
   public get = async (req, res) => : Promise<any> {
 
-   return this.response.success('controller get method', {}, res)
+   return ResponseService.success('controller get method', {}, res)
   }
 
   /*
@@ -53,7 +53,7 @@ export default class {{name}} extends MainController{
    * */
   public fetch = async (req, res) =>  : Promise<any> {
 
-   return this.response.success('controller fetch method', {}, res)
+   return ResponseService.success('controller fetch method', {}, res)
   }
 
 }

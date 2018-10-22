@@ -1,7 +1,7 @@
 import { Model } from '@beardedframework/lumberjack';
 
 
-export default {{name}}  extends Model{
+export default class {{name}} extends Model{
 
   /*
    * @var { string } the database table name
