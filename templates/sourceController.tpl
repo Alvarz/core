@@ -12,7 +12,7 @@ export default class {{name}} extends MainController{
    *
    * @return { promise }
    * */
-  public store =  async(req, res) => : Promise<any> {
+  public store =  async(req, res) => {
     
    return ResponseService.success('controller store method', {}, res)
   }
@@ -25,7 +25,7 @@ export default class {{name}} extends MainController{
    *
    * @return { promise }
    * */
-  public update = async  (req, res) => : Promise<any> {
+  public update = async  (req, res) => {
 
    return ResponseService.success('controller update method', {}, res)
   }
@@ -38,7 +38,7 @@ export default class {{name}} extends MainController{
    *
    * @return { promise }
    * */
-  public get = async (req, res) => : Promise<any> {
+  public get = async (req, res) =>  {
 
    return ResponseService.success('controller get method', {}, res)
   }
@@ -51,7 +51,7 @@ export default class {{name}} extends MainController{
    *
    * @return { promise }
    * */
-  public fetch = async (req, res) =>  : Promise<any> {
+  public fetch = async (req, res) =>   {
 
    return ResponseService.success('controller fetch method', {}, res)
   }
