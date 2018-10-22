@@ -1,6 +1,6 @@
 {
   "name": "@beardedframework/core",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "a core features of beardeds",
   "main": "dist/index.js",
   "scripts": {
