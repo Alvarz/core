@@ -19,8 +19,8 @@
   "author": "Carlos Alvarez <beardedframework@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@beardedframework/axe": "^0.0.6",
-    "@beardedframework/lumberjack": "^0.1.13",
+    "@beardedframework/axe": "latest",
+    "@beardedframework/lumberjack": "latest",
     "@types/node": "7.0.22",
     "nodemon": "1.11.0"
   },

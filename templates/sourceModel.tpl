@@ -1,6 +1,8 @@
 import { Model } from '@beardedframework/lumberjack';
 
-
+/*
+ * @class {{name}}
+ * */
 export default class {{name}} extends Model{
 
   /*
@@ -25,4 +27,3 @@ export default class {{name}} extends Model{
      super(data);
   }
 }
-

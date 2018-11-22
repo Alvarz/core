@@ -1,4 +1,7 @@
 
+/*
+ * @class ResponseService
+ * */
 export default class ResponseService{
 
   private static OK = 200;
@@ -13,12 +16,10 @@ export default class ResponseService{
 
   /*
    * success response
-   *
    * @param { string } message
    * @param { any } data
    * @param { any } resp
    * @param { boolean } state
-   *
    * @return { object }
    */
   public static success(message : string, data : any, resp : any, state : boolean = true)  : object {
@@ -32,12 +33,10 @@ export default class ResponseService{
   
   /*
    * error response
-   *
    * @param { string } message
    * @param { any } error
    * @param { any } resp
    * @param { boolean } state
-   *
    * @return { object }
    */
   public static error(message : string, error : any, resp : any, state : boolean = false )  : object {
@@ -51,12 +50,10 @@ export default class ResponseService{
 
   /*
    * validation needed response
-   *
    * @param { string } message
    * @param { any } validation
    * @param { any } resp
    * @param { boolean } state
-   *
    * @return { object }
    */
   public static validationNotPassed(message : string, validation : any, resp : any, state : boolean = false ) : object{
@@ -66,8 +63,5 @@ export default class ResponseService{
       status: state,
       validation: validation
     });
-  
-  
   }
-
 }
